@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="img-sidebar">
+      <div class="copyright">
+        <span
+          >Photo by
+          <a href="https://unsplash.com/@pawel_czerwinski">Pawel Czerwinski</a>
+          on <a href="https://unsplash.com">Unsplash</a></span
+        >
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="hero">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <b>now</b> to get started.</p>
+        <p>You <i>know</i> you want to.</p>
+      </div>
+
+      <div class="signup-form">
+        <form>
+          <h3>Let's do this!</h3>
+          <div class="form-container">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" />
+              <div class="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" />
+              <div class="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Email</label>
+              <input type="email" id="email" name="email" />
+              <div class="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" pattern="^0[2-9][0-9]{7}$" placeholder="e.g. 0211234567" />
+              <div class="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="pwd">Password</label>
+              <input type="password" id="pwd" name="password" />
+              <div class="alert"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="confirm-pwd">Confirm Password</label>
+              <input type="password" id="confirm-pwd" name="confirm-password" />
+              <div class="alert"></div>
+            </div>
+          </div>
+
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
