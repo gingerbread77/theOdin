@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Cyber Library</h1>
+    <div class="right">
+    <button id="addBtn">
+      <i class="fa-solid fa-plus"></i>
+      <span>Add Book</span>
+    </button>
+    <form class="search">
+      <input type="text" id="search">
+      <button type="submit" class="search-btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+  </div>
+  </header>
+  <form action="#" class="add-form" style="display:none;">
+    <label for="title">Book Title
+    <input type="text" id="title" required>
+  </label>
+
+    <label for="author">Author
+    <input type="text" id="author" required>
+  </label>
+
+    <label for="pages">Number of Pages
+    <input type="text" id="pages">
+  </label>
+
+    <label for="read">
+      <input type="checkbox" id="read" name="read"> Have Read
+    </label>
+    <div class="close">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="submit">
+    <button type="submit">Add</button>
+  </div>
+  </form>
+  <main class="book-shelf">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
