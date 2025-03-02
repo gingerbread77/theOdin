@@ -6,7 +6,7 @@ This is a collection of projects I completed while following [The Odin Project](
 | :-: | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | 01  | [Recipes](https://github.com/gingerbread77/theOdin/tree/main/01-recipes)                                                | [Live Demo](https://merry-moonbeam-cea2b5.netlify.app)        |
 | 02  | [Landing Page](https://github.com/gingerbread77/theOdin/tree/main/02-landing-page)                                      | [Live Demo](https://phenomenal-haupia-1963d8.netlify.app)     |
-| 03  | [Rock Paper Scissors](https://github.com/gingerbread77/theOdin/tree/main/03-rock-paper-scissors)                        | [Live Demo](https://darling-crepe-47619e.netlify.app)         |
+| 03  | [Rock Paper Scissors](https://github.com/gingerbread77/theOdin/tree/main/03-rock-paper-scissors)                        | [Live Demo](https://regal-sunburst-c26046.netlify.app)         |
 | 04  | [Etch a Sketch](https://github.com/gingerbread77/theOdin/tree/main/04-etch-a-sketch)                                    | [Live Demo](https://zippy-phoenix-7f29ba.netlify.app)         |
 | 05  | [Calculator](https://github.com/gingerbread77/theOdin/tree/main/05-calculator)                                          | [Live Demo](https://unique-souffle-1db65e.netlify.app)        |
 | 06  | [Signup Form](https://github.com/gingerbread77/theOdin/tree/main/06-sign-up-form)                                       | [Live Demo](https://endearing-hotteok-6de119.netlify.app)     |
